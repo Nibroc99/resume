@@ -1,0 +1,350 @@
+body {
+    background-color: #33AAFF;
+  }
+
+  h1.titlecard {
+    padding-top: 0px;
+    margin-bottom: -5px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    color: #33AAFF;
+    text-align: center;
+  }
+
+@media (min-width: 800px) {
+  h1.titlecard {
+    padding-top: 30px;
+    margin-bottom: 20px;;
+    letter-spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    color: #33AAFF;
+    text-align: center;
+    transition: .2s letter-spacing;
+    transition-timing-function: cubic-bezier(0.75,1);
+  }
+}
+  
+h2 {
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #215CAA;
+    text-align: left;
+  }
+
+  h2.skills {
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #215CAA;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #215CAA;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+.dates {
+  line-height: 14px;
+  font-weight: 300;
+  font-size: 14px;
+  font-style: italic;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  color: #215CAA;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: -13px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  color: #215CAA;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: -13px;
+}
+
+.listitems {
+  margin-left: 20px;
+}
+  
+ul {
+  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #215CAA;
+    text-align: left;
+  }
+  
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #215CAA;
+    text-align: left;
+    margin-bottom: -10px;
+  }
+  
+.black {
+    font-weight: 900;
+  }
+  
+b {
+    font-weight: 700;
+  }
+
+  /* logo at top */
+#rcorners1 {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: -5px;
+    border-radius: 20px;
+    width: 100px;
+  }
+
+div.titlecardlink {
+    padding-bottom: 30px;
+}
+
+span.avoidwrap { 
+    display:inline-block;
+    transition: .8s all;
+  }
+
+  /* titlecard container */
+div.titlecard {
+    background-color: white;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0px 2px 4px #00000056;
+    transition: .8s all;
+    transition-timing-function: cubic-bezier(0.75,1);
+    grid-area: h;
+  }
+
+  @media (min-width: 800px) {
+    div.titlecard {
+      background-color: white;
+      min-width: 650px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50px;
+      box-shadow: 0px 2px 4px #00000056;
+      transition: .3s all;
+      transition-timing-function: cubic-bezier(0.75,1);
+      grid-area: h;
+    }
+  }
+  
+div.titlecard:hover {
+    box-shadow: 0px 2px 4px #00000068, 0px 2px 35px #000000bb;
+    transition: .2s all;
+    transition-timing-function: cubic-bezier(0,0.8,0.9,1);
+  }
+
+div.titlecard:active {
+    box-shadow: 0px 3px 16px #00000088, 0px 3px 85px #000000bb;
+    transition: 75ms all;
+    transition-timing-function: cubic-bezier(0,0.8,0.9,1);
+}
+
+div.body2 {
+  background-color: white;
+  border-radius: 20px;
+  width: 95%;
+  box-shadow: 0px 2px 4px #00000056;
+  grid-area: b2;
+}
+
+@media (min-width: 800px) {
+  div.body2 {
+    background-color: white;
+    border-radius: 20px;
+    width: 95%;
+    box-shadow: 0px 2px 4px #00000056;
+    grid-area: b2;
+  }
+}
+
+div.body1 {
+  background-color: white;
+  border-radius: 20px;
+  width: 95%;
+  box-shadow: 0px 2px 4px #00000056;
+  grid-area: b1;
+}
+
+@media (min-width: 800px) {
+  div.body1 {
+    background-color: white;
+    border-radius: 20px;
+    width: 95%;
+    box-shadow: 0px 2px 4px #00000056;
+    grid-area: b1;
+  }
+}
+
+.imgautosize{
+  background-image: url(https://lh3.googleusercontent.com/JeuSRQ0XHBh-GefSEzz_0eTvGDEirrhb8aUj2g-ywT8wTZO52LGsHntYDMU5wtY0-6Dduk2q2rnxjCVUwk4iOt78gnMzfVLMMOgWEqFW72s6XjXph7-KkUhttfuegrh7Ye0u5DZhLxaMW83Yeh1_VcRfc1Yy4sX536qfHsLVs62SNwtI_pDDBdKuFvVCLnYlpn6oMoAJKK7miMyjcg9vznrvYpQrfEDpYa59JFJV3pR8ES8E_l7WldZCOMIkTYCBsrP0a0ACGPy70QvlC6i78-e8cUQgDMjk0Wo5cg4Y8lsX85uIqfNukx8f0xnZIfxKjcbr9hPEidD-rQ9GGaIrt7u_Q2aZraPM_yQVx8eJ5fBoPCQuDxvM3Ung-3A_ZNec2TWg3nDhogGFkw54aH1GmXu3_8YmdahGJ6hLqXl4I_ouYBTELMuPYEP0YrNseC8_DO18-ozshrmrsHIN-Al4El7IK_mkxc0pylvAfeZNTBT5WvQjCmU9BJPdt8-J_K6s9lA7gFiVGYP9JBf5LLGnoggtT1AmXqWIZnTry1WUFcjYO0CUYpsHVpUik0_I1y6_TmA4NdPmcBz_NvMVmlrSyAMIcleXqUXjGLA99C9CgPbMKrHe8IYUxk5hukvh-wpsj_ZUr7vIubrhzHmcIBavOd5rN_jhW_Q=s408-no);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  min-width: 150px;
+  max-width: 300px;
+  height: 220px;
+  box-shadow: 0px 2px 4px #00000056;
+  grid-area: p;
+  align-content: center;
+}
+
+@media (min-width: 800px) {
+.imgautosize{
+  background-image: url(https://lh3.googleusercontent.com/JeuSRQ0XHBh-GefSEzz_0eTvGDEirrhb8aUj2g-ywT8wTZO52LGsHntYDMU5wtY0-6Dduk2q2rnxjCVUwk4iOt78gnMzfVLMMOgWEqFW72s6XjXph7-KkUhttfuegrh7Ye0u5DZhLxaMW83Yeh1_VcRfc1Yy4sX536qfHsLVs62SNwtI_pDDBdKuFvVCLnYlpn6oMoAJKK7miMyjcg9vznrvYpQrfEDpYa59JFJV3pR8ES8E_l7WldZCOMIkTYCBsrP0a0ACGPy70QvlC6i78-e8cUQgDMjk0Wo5cg4Y8lsX85uIqfNukx8f0xnZIfxKjcbr9hPEidD-rQ9GGaIrt7u_Q2aZraPM_yQVx8eJ5fBoPCQuDxvM3Ung-3A_ZNec2TWg3nDhogGFkw54aH1GmXu3_8YmdahGJ6hLqXl4I_ouYBTELMuPYEP0YrNseC8_DO18-ozshrmrsHIN-Al4El7IK_mkxc0pylvAfeZNTBT5WvQjCmU9BJPdt8-J_K6s9lA7gFiVGYP9JBf5LLGnoggtT1AmXqWIZnTry1WUFcjYO0CUYpsHVpUik0_I1y6_TmA4NdPmcBz_NvMVmlrSyAMIcleXqUXjGLA99C9CgPbMKrHe8IYUxk5hukvh-wpsj_ZUr7vIubrhzHmcIBavOd5rN_jhW_Q=s408-no);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  min-width: 250px;
+  width: 95%;
+  height: 300px;
+  box-shadow: 0px 2px 4px #00000056;
+  grid-area: p;
+}
+}
+
+div.skills {
+  background-color: white;
+  border-radius: 20px;
+  Margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  min-width: 200px;
+  box-shadow: 0px 2px 4px #00000056;
+  grid-area: s;
+}
+
+@media (min-width: 800px) {
+  div.skills {
+    background-color: white;
+    border-radius: 20px;
+    min-width: 250px;
+    width: 95%;
+    max-height: 610px;
+    box-shadow: 0px 2px 4px #00000056;
+    grid-area: s;
+  }
+}
+
+div.bodytext {
+    Padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+div.skillstext {
+  Padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  max-width: 250px;
+}
+}
+
+div.skillstext {
+  Padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+
+a:link {
+    word-break: break-all;
+    color: white;
+    background-color: normal;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+    word-break: break-all;
+    background-color: normal;
+    text-decoration: none;
+  }
+
+a:active {
+    color: #0000ff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.footer {
+grid-area: f;
+ }
+
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-template-areas:
+  'h h'
+  'p p'
+  's s'
+  'b1 b1'
+  'b2 b2'
+  'f f';
+  justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .grid-container {
+  display: grid;
+  grid-row-gap: 50px;
+  margin-left: 7%;
+  margin-right: 7%;
+  grid-template-areas:
+  'h  h  h  h'
+  'b1 b1 b1 p'
+  'b1 b1 b1 s' /* the bottom of the "education" card ends up being way bigger than it needs to be for some reason, can't seem to resolve this */
+  'b2 b2 b2 s'
+  'f  f  f  f';
+  justify-content: space-evenly
+  }
+}

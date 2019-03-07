@@ -1,1 +1,7 @@
-# resume
+# Corbin M. Blanchard's Resume - last updated: *March of 2019*.
+# This HTML file and its linked CSS file both refer to sources (fonts and images) from other internet locations.  Please be sure to have an internet connection when viewing these!  Images will not load (yet) if there is no internet connection.  I just haven't downloaded my images yet.
+    In general, I used CSS and HTML, and was originally going to use some JS elements for animation purposes but scrapped that idea as it was just too complicated and overthought for this simple little project.
+
+    For my resume page, I was doing fine until CSS grid came along.  That really tripped me up and gave me lots of issues, which google wasn't helping me solve, but then after our video chat I started thinking about the grid system differently.  This helped me realize where I was going wrong, eliminate lots of extra CSS elements, and totally reorganize how I was going about it.  I finally got it to work almost perfectly after implementing the @media element in tandem with the grid system.  We finally have a functional website here!
+    
+    I'm both excited and annoyed about the portfolio site that we're going to be making, because 1.) I have a pretty okay idea/wireframe for the site, but 2.) I already use Adobe Portfolio to manage my online portfolio, and it's really, really easy to use and is very functional/visually pleasing.  So although it'll be fun to code my own, I know for sure that I'll be continuing to use Adobe Portfolio because it's free with the Adobe Creative Cloud bundle /and/ it's a free website.
